@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C1938D51-F754-447F-B46F-BEF3D2D9208D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentDbC", "FluentDbC\FluentDbC.csproj", "{8808F0F0-9074-4335-BCBB-E22D0131AF7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1938D51-F754-447F-B46F-BEF3D2D9208D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1938D51-F754-447F-B46F-BEF3D2D9208D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1938D51-F754-447F-B46F-BEF3D2D9208D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1938D51-F754-447F-B46F-BEF3D2D9208D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8808F0F0-9074-4335-BCBB-E22D0131AF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8808F0F0-9074-4335-BCBB-E22D0131AF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8808F0F0-9074-4335-BCBB-E22D0131AF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8808F0F0-9074-4335-BCBB-E22D0131AF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
