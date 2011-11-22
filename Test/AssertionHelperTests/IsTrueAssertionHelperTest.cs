@@ -10,7 +10,7 @@ namespace FluentDbC.Test
     {
         public IsTrueAssertionHelperTest()
         {
-            MethodUnderTest = group => AssertionHelper.IsTrue(group, true);
+            MethodUnderTest = group => AssertionHelper.IsTrue(group, true);            
         }
     }
 }
