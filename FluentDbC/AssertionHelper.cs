@@ -21,5 +21,13 @@ namespace FluentDbC
 
             return group;
         }
+
+        public static AssertionGroup IsFalse(AssertionGroup group, bool value)
+        {
+            var assertion = new IsFalseAssertion(value);
+            group.Add(assertion);
+
+            return group;
+        }
     }
 }

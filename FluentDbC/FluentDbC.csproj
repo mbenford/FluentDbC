@@ -44,6 +44,7 @@
     <Compile Include="AssertionInvalidException.cs" />
     <Compile Include="AssertionGroup.cs" />
     <Compile Include="AssertionHelper.cs" />
+    <Compile Include="Assertions\IsFalseAssertion.cs" />
     <Compile Include="AssertionValidator.cs" />
     <Compile Include="Contract.cs" />
     <Compile Include="Assertions\IsTrueAssertion.cs" />

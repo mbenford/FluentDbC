@@ -15,7 +15,7 @@ namespace FluentDbC
             assertions = new List<Assertion>();
         }        
 
-        public void Add(Assertion assertion)
+        internal void Add(Assertion assertion)
         {
             assertions.Add(assertion);
         }
