@@ -14,5 +14,4 @@ namespace FluentDbC.Test
             MethodUnderTest = group => AssertionHelper.IsFalse(group, true);
         }
     }
-
 }

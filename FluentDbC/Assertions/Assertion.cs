@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,8 +11,8 @@ namespace FluentDbC.Assertions
             Value = value;
         }
 
-        public object Value { get; private set; }        
+        public object Value { get; private set; }
 
         public abstract bool IsValid();
-    }    
+    }
 }

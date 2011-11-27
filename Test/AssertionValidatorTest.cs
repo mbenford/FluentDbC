@@ -49,8 +49,8 @@ namespace FluentDbC.Test
         {
             var assertion = new Mock<Assertion>(null);
             assertion
-                .Setup(a => a.IsValid())
-                .Returns(true);
+            .Setup(a => a.IsValid())
+            .Returns(true);
 
             return assertion.Object;
         }
@@ -59,8 +59,8 @@ namespace FluentDbC.Test
         {
             var assertion = new Mock<Assertion>(null);
             assertion
-                .Setup(a => a.IsValid())
-                .Returns(false);
+            .Setup(a => a.IsValid())
+            .Returns(false);
 
             return assertion.Object;
         }

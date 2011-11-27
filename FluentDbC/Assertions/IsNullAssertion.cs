@@ -1,19 +1,20 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using FluentDbC.Assertions;
 
 namespace FluentDbC.Assertions
 {
-    public class IsTrueAssertion : Assertion
+    public class IsNullAssertion : Assertion
     {
-        public IsTrueAssertion(bool value)
+        public IsNullAssertion(object value)
             : base(value)
         {
         }
 
         public override bool IsValid()
         {
-            return Convert.ToBoolean(Value);
+            return Value == null;
         }
     }
 }

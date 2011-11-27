@@ -6,7 +6,6 @@ using NUnit.Framework;
 
 namespace FluentDbC.Test
 {
-    
     public abstract class BaseAssertionHelperTest
     {
         protected Func<AssertionGroup, AssertionGroup> MethodUnderTest { get; set; }

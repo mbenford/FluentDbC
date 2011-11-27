@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using FluentDbC.Assertions;
@@ -18,7 +18,8 @@ namespace FluentDbC
         {
             foreach (Assertion assertion in group)
             {
-                if (!assertion.IsValid()) throw new AssertionInvalidException();
+                if (!assertion.IsValid())
+                    throw new AssertionInvalidException();
             }
         }
     }

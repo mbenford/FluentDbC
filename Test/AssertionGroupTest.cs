@@ -12,8 +12,6 @@ namespace FluentDbC.Test
     [TestFixture]
     public class AssertionGroupTest
     {
-
-
         [Test]
         public void Adds_Assertion_To_The_End_Of_The_Group()
         {
@@ -39,8 +37,8 @@ namespace FluentDbC.Test
             Assertion assertion2 = CreateFakeAssertion();
             Assertion assertion3 = CreateFakeAssertion();
 
-            group.Add(assertion1);            
-            group.Add(assertion2);            
+            group.Add(assertion1);
+            group.Add(assertion2);
             group.Add(assertion3);
 
             var assertions = new List<Assertion>();

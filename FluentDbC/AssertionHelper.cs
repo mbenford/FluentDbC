@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using FluentDbC.Assertions;
 
 namespace FluentDbC
@@ -16,17 +15,19 @@ namespace FluentDbC
 
         public static AssertionGroup IsTrue(this AssertionGroup group, bool value)
         {
-            var assertion = new IsTrueAssertion(value);
-            group.Add(assertion);
-
+            group.Add(new IsTrueAssertion(value));
             return group;
         }
 
-        public static AssertionGroup IsFalse(AssertionGroup group, bool value)
+        public static AssertionGroup IsFalse(this AssertionGroup group, bool value)
         {
-            var assertion = new IsFalseAssertion(value);
-            group.Add(assertion);
+            group.Add(new IsFalseAssertion(value));
+            return group;
+        }
 
+        public static AssertionGroup IsNull(this AssertionGroup group, object value)
+        {
+            group.Add(new IsNullAssertion(value));
             return group;
         }
     }

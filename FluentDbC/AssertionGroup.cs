@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
@@ -13,7 +13,7 @@ namespace FluentDbC
         public AssertionGroup()
         {
             assertions = new List<Assertion>();
-        }        
+        }
 
         internal void Add(Assertion assertion)
         {
