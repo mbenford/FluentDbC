@@ -30,5 +30,11 @@ namespace FluentDbC
             group.Add(new IsNullAssertion(value));
             return group;
         }
+
+        public static AssertionGroup IsNotNull(AssertionGroup group, object value)
+        {
+            group.Add(new IsNotNullAssertion(value));
+            return group;
+        }
     }
 }

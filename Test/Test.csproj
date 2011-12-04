@@ -47,10 +47,13 @@
     <Compile Include="AssertionGroupTest.cs" />
     <Compile Include="AssertionHelperTests\BaseAssertionHelperTest.cs" />
     <Compile Include="AssertionHelperTests\IsFalseAssertionHelperTest.cs" />
+    <Compile Include="AssertionHelperTests\IsNotNullAssertionHelperTest.cs" />
     <Compile Include="AssertionHelperTests\IsNullAssertionHelperTest.cs" />
     <Compile Include="AssertionsTest\IsFalseAssertionTest.cs" />
     <Compile Include="AssertionHelperTests\IsTrueAssertionHelperTest.cs" />
     <Compile Include="AssertionHelperTests\ValidateAssertionHelperTest.cs" />
+    <Compile Include="AssertionsTest\IsNotNullAssertion.cs" />
+    <Compile Include="AssertionsTest\IsNotNullAssertionTest.cs" />
     <Compile Include="AssertionsTest\IsNullAssertionTest.cs" />
     <Compile Include="AssertionsTest\IsTrueAssertionTest.cs" />
     <Compile Include="AssertionValidatorTest.cs" />

@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using NUnit.Framework;
 using FluentDbC.Assertions;
 
 namespace FluentDbC.Test.AssertionsTest
 {
     [TestFixture]
-    public class IsNullAssertionTest
+    public class IsNotNullAssertionTest
     {
         [Test]
-        public void Returns_True_When_Validating_Null_Values()
+        public void Returns_True_When_Validating_Non_Null_Values()
         {
             // Arrange
-            var assertion = new IsNullAssertion(null);
+            var assertion = new IsNotNullAssertion(new object());
 
             // Act
             bool result = assertion.IsValid();
@@ -23,10 +24,10 @@ namespace FluentDbC.Test.AssertionsTest
         }
 
         [Test]
-        public void Returns_False_When_Validating_Non_Null_Values()
+        public void Returns_False_When_Validating_Null_Values()
         {
             // Arrange
-            var assertion = new IsNullAssertion(new object());
+            var assertion = new IsNotNullAssertion(null);
 
             // Act
             bool result = assertion.IsValid();
@@ -35,4 +36,5 @@ namespace FluentDbC.Test.AssertionsTest
             Assert.IsFalse(result);
         }
     }
+
 }
