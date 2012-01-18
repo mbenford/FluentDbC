@@ -47,6 +47,9 @@
     <Compile Include="Assertions\IsFalseAssertion.cs" />
     <Compile Include="Assertions\IsNotNullAssertion.cs" />
     <Compile Include="Assertions\IsNullAssertion.cs" />
+    <Compile Include="Assertions\IsPositiveAssertion.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AssertionValidator.cs" />
     <Compile Include="Contract.cs" />
     <Compile Include="Assertions\IsTrueAssertion.cs" />

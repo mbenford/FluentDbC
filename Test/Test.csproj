@@ -55,6 +55,9 @@
     <Compile Include="AssertionsTest\IsNotNullAssertion.cs" />
     <Compile Include="AssertionsTest\IsNotNullAssertionTest.cs" />
     <Compile Include="AssertionsTest\IsNullAssertionTest.cs" />
+    <Compile Include="AssertionsTest\IsPositiveAssertionTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AssertionsTest\IsTrueAssertionTest.cs" />
     <Compile Include="AssertionValidatorTest.cs" />
     <Compile Include="ContractTest.cs" />
